@@ -7,25 +7,23 @@
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.css"/>
 </head>
 <body id="back">
 	<h1>Aliyah Chance Resume</h1>
 	<div id="container">
 		<header>
-			<img src="img/pro.jpg" id="me" alt="Aliyah Chance">
-			<div>
-				<p>West Palm Beach, Florida</p>
-				<p>561.909.5670</p>
-				<p>aliyahchance@email.com</p>
-		</div>
+			<img src="img/pro.jpg" id="me" class="tooltip" title="Contact me: 561-909-5670 & aliyahsemail@email.com" alt="Aliyah Chance">
 		</header>
 	<main>
 		<article id="work">
 			<h2>Work Experience</h2>
 				<ul>
-					<li>UF School of Theater and Dance - Wardrobe Head of <em>The Divine: A Play for Sarah Bernhardt</em></li>
+					<li>
+						<h3>UF School of Theater and Dance - Wardrobe Head of <em>The Divine: A Play for Sarah Bernhardt</em></h3>
 						<p>Supervised the wardrobe crew for the show's rehersals and performances for a successful three-week run.</p>
 						<p>Repaired major wardrobe malfunctions during the show's run.</p>
+					</li>
 					<li>3i Advertising - Communication and Social Media Intern</li>
 						<p>Generated relevant visual content for several brands' social media posts to increase click-thru rate.</p>
 					<li>21 drops - Graphic Design Intern</li>
@@ -51,7 +49,21 @@
 		<article id="skills">
 			<h2>Skills</h2>
 				<p>Proficient in Photoshop, Indesign, Illustrator, Layout & Typography, HTML & CSS, and Social Media.</p>
+				<div id="progressbar1"></div>
 				<p>Knowledgeable of JavaScript & jQuery, UX Research. Audition, Premiere Pro, and Costume Design & Construction.</p>
+
+
+				<div class="circles">
+					<div id="circle1" class="round">
+						<span>Photoshop</span>
+					</div>
+					<div id="circle2" class="round">
+						<span>Indesign</span>
+					</div>
+					<div id="circle3" class="round">
+						<span>Illustrator</span>
+					</div>
+			</div>
 		</article>
 		<article id="interests">
 			<h2>Interests</h2>
@@ -63,6 +75,8 @@
 </div>
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/color.js"></script>
+		<script src="js/tooltipster.bundle.js"></script>
+		<script src="js/line-progress-bar.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
