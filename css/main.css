@@ -6,7 +6,9 @@ body {
 }
 #container {
 	background-color: #3ca6d8;
-	padding: 2%;
+	padding: 5% 2% 5% 2%;
+	-webkit-box-shadow: 4px 4px 8px 4px #233E6E;
+		box-shadow: 4px 4px 8px 4px #233E6E;
 }
 header {
 	margin-left: 15%;
