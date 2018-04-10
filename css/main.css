@@ -1,6 +1,8 @@
 body {
 	margin: 5%;
 	background-color: #fff;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
 }
 #container {
 	background-color: #3ca6d8;
@@ -16,22 +18,28 @@ h2 {
 	font-family: ;
 	font-size: ;
 	color: #;
-	margin-top: 55px;
+	margin-top: 70px;
 }
 h3 {
 	font-family: ;
 	font-size: ;
 	color: ;
+	margin-top: 55px;
 }
 h2, h3 {
+	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 }
 ul li, p {
 	color: #13243f;
+	font-family: 'Marvel', sans-serif;
+	font-size: 1.5rem;
+	margin: 5% 10% 5% 5%;
 }
 ul {
 	width: 90%;
 	margin: 2.55%;
+	list-style-type: square;
 }
 .circle {
   display: inline;
@@ -69,6 +77,9 @@ ul {
 	header {
 		margin-left: 28%;
 	}
+	ul li, p {
+		margin: 5%;
+	}
 }
 @media (min-width: 680px) {
 	#me {
@@ -76,6 +87,11 @@ ul {
 	}
 	header {
 		margin-left: 35%;
+	}
+}
+@media (min-width: 900px) {
+	ul li, p {
+		margin: 2% 12% 2% 12%;;
 	}
 }
 /*

@@ -64,5 +64,5 @@ function changeColor(ElemId, r1, g1, b1, r2, g2, b2, scrollFromTop) {
 }
 
 $(document).ready(function () {
-    changeColor('container', 85, 189, 237, 244, 233, 151);
+    changeColor('container', 85, 189, 237, 300, 300, 300);
 });
