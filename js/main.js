@@ -3,6 +3,8 @@ $(document).ready(function () {
     $('.tooltip').tooltipster();
 });
 
+$('h1').typeTo('Aliyah Chance\'s Resume');
+
 /*
 $('#circle1').circleProgress({
     value: 0.90,

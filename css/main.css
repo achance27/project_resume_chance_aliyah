@@ -13,6 +13,14 @@ header {
 }
 #me {
 	width: 80%;
+	-webkit-box-shadow: 3px 4px 6px 3px #233E6E;
+		box-shadow: 3px 4px 6px 3px #233E6E;
+}
+h1 {
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2.9rem;
+	text-shadow: 2px 2px 3px #050547;
 }
 h2 {
 	font-family: ;
