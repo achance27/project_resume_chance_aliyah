@@ -5,11 +5,11 @@
 
 [GitHub](https://github.com/achance27/project_resume_chance_aliyah)
 
-[Webpage](https://aliyahchance.com/project_resume_chance_aliyah)
+[Webpage](http://aliyahchance.com/project_resume_chance_aliyah/)
 
-[Validator]()
+[Validator](https://validator.w3.org/unicorn/check?ucn_uri=aliyahchance.com%2Fproject_resume_chance_aliyah%2F&ucn_task=conformance#)
 
-[Outline]()
+[Outline](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Faliyahchance.com%2Fproject_resume_chance_aliyah%2F)
 
 ## Resources
 
