@@ -21,7 +21,7 @@ header {
 h1 {
 	color: #fff;
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 2.9rem;
+	font-size: 2.2rem;
 	text-shadow: 2px 2px 3px #050547;
 }
 h2 {
@@ -55,34 +55,20 @@ ul {
   display: inline;
 	float: left;
 }
-
-/** Progressbar class css*/
-.progressbar {
-    width: 100%;
-	margin-top: 5px;
-	margin-bottom: 35px;
-	position: relative;
-	background-color: #EEEEEE;
-	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+.highlight {
+	color: #5d10d1;
+}
+.pop {
+	text-shadow: 1px 2px 3px #8299a5;
 }
 
-.proggress{
-	height: 8px;
-	width: 10px;
-	background-color: #3498db;
-}
-
-.percentCount{
-	float:right;
-	margin-top: 10px;
-	clear: both;
-	font-weight: bold;
-	font-family: Arial
-}
-
+/* MEDIA QUERIES */
 @media (min-width: 450px) {
 	#me {
 		width: 65%;
+	}
+	h1 {
+		font-size: 3rem;
 	}
 	header {
 		margin-left: 28%;
@@ -104,20 +90,8 @@ ul {
 		margin: 2% 12% 2% 12%;;
 	}
 }
-/*
-@media (min-width: 600px) {
-	ul {
-		width: 80%;
-		margin: 7.5%;
+@media (min-width: 1020px) {
+	ul li, p {
+		margin: 2% 18% 2% 18%;;
 	}
 }
-@media (min-width: 1024px) {
-	#work, #edu {
-		width: calc(100%/2);
-		float: left;
-	}
-	#skills, #interests {
-		clear: right;
-	}
-}
-*/
